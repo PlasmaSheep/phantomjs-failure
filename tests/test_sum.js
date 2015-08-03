@@ -9,7 +9,7 @@ jasmine.getEnv().addReporter(consoleReporter); //add reporter to execution envir
 
 describe("Test jasmine and our code", function() {
     it("Check if basic assertions work", function() {
-        expect(false).toBe(true);
+        expect(true).toBe(true);
     });
     it("Access a function from another file", function() {
         expect(sum(2, 4) == 6).toBe(true);
